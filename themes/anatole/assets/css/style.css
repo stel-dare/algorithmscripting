@@ -80,7 +80,13 @@ blockquote {
   margin: 5px 8px 5px 0;
 }
 
-pre {
+code{
+  background-color: var(--pre-bg-color);
+  padding: 5px;
+  overflow-x: auto;
+}
+
+pre code {
   background-color: var(--pre-bg-color);
   padding: 5px;
   display: block;
