@@ -19,8 +19,8 @@ The formula for converting from Celsius to Fahrenheit is the temperarue in Celsi
 <!--more-->
 
 ---
-## Applying the formula
-Let's write a function that takes a temeperation in Celsius and converts it to Fahrenheit.
+## Applying The Formula
+Let's write a function that takes a temeperature in Celsius and converts it to Fahrenheit.
 
 {{< highlight js >}}
 function convertToFahrenheit(celsius){
@@ -28,3 +28,16 @@ function convertToFahrenheit(celsius){
     return fahrenheit;
 }
 {{< /highlight >}}
+
+## The Reverse - Fahrenheit to Celsius
+When you want to convert from Fahrenheit to Celsius you make `C` the subject of the formula `F=(C*9/5)+32`.
+Thus `C = (F-32)*5/9`.
+
+{{< highlight js >}}
+function convertToCelsius(fahrenheit){
+    let celsius = (fahrenheit - 32) * 5/9;
+    return celsius;
+}
+{{< /highlight >}}
+
+Happy coding!

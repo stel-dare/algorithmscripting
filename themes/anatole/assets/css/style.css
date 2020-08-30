@@ -12,6 +12,7 @@
   --tag-color: #424242;
   --blockquote-text-color: #858585;
   --blockquote-border-color: #dfe2e5;
+  --p-code-text-color:#c7254e;
   scroll-padding-top: 100px;
 }
 
@@ -27,6 +28,7 @@ html[data-theme='dark'] {
   --tag-color: rgb(191, 191, 191);
   --blockquote-text-color: #808080;
   --blockquote-border-color: #424242;
+  --p-code-text-color:#f9f2f4;
 }
 
 html {
@@ -80,15 +82,16 @@ blockquote {
   margin: 5px 8px 5px 0;
 }
 
-code{
+p code{
   background-color: var(--pre-bg-color);
-  padding: 5px;
+  color:var(--p-code-text-color);
+  padding: 3px;
   overflow-x: auto;
 }
 
-pre code {
+pre {
   background-color: var(--pre-bg-color);
-  padding: 5px;
+  padding: 8px;
   display: block;
   overflow-x: auto;
 }
