@@ -15,12 +15,12 @@ series = ["Basic Algorithm"]
 aliases = ["convert-fahrenheit-to-celsius"]
 +++
 
-The formula for converting from Celsius to Fahrenheit is the temperarue in Celsius, `C` , times `9/5` plus `32`. Thus `F=(C*9/5)+32`.
+The formula for converting from Celsius to Fahrenheit is the temperature in Celsius, `C` , times `9/5` plus `32`. Thus `F=(C*9/5)+32`.
 <!--more-->
 
 ---
 ## Applying The Formula
-Let's write a function that takes a temeperature in Celsius and converts it to Fahrenheit.
+Let's write a function that takes a temperature in Celsius and converts it to Fahrenheit.
 
 {{< highlight js >}}
 function convertToFahrenheit(celsius){
