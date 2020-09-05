@@ -42,7 +42,7 @@ We would reverse the string with a `loop`. Either `for`,`while` or a `do while` 
 function reverseString(string){
     // Define varriable to store reversed string
     let reverseString = '';
-    // A for loop that starts at the end of the string and loops to the beginning
+    // We want a for loop that starts at the end of the string and loops to the beginning
     // Our loop counter i=string.length-1 because this will makes us start at the end of the string
     // and move towards the beginning. 
     for (let i=string.length-1; i>=0; i--) {

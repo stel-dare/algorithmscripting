@@ -27,14 +27,15 @@ function factorialize(num) {
   // Define variable to store product.
   // We are initializing this variable with 1 because any number multiplied by 1 doesnt change.
   let product=1;
-  // When num is finally 1, the recursion would break and the product would be returned
+  // This is the condition to stop the recursion when num <=1 because we only want the product
+  // of positive numbers.
   if(num<=1) return product;
   //Multiply what's in product by num
   product*=num;
-  //As long as num is more than 1 keep calling the function on itself.
+  // Keep calling our factorialize function while decrementing the value of num by 1.
   return factorialize(num-1)*product;
 }
 {{< /highlight >}}
 
-Recursion can very confusing. It took me a while to grasp it myself. I hope this helped.
+Recursion can very confusing. It took me a while to grasp it myself. In fact I don't think I fully understand it because I find it difficult explaining it.  I hope this helped.
 Happy Coding!
