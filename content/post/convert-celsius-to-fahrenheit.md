@@ -11,7 +11,7 @@ tags = [
 categories = [
     "Basic",
 ]
-series = ["Basic Algorithm"]
+series = "Basic Algorithm"
 aliases = ["convert-fahrenheit-to-celsius"]
 +++
 

@@ -11,7 +11,7 @@ tags = [
 categories = [
     "Basic",
 ]
-series = ["Basic Algorithm"]
+series = "Basic Algorithm"
 aliases = ["return-the-smallest-number-in-arrays"]
 +++
 

@@ -12,7 +12,7 @@ tags = [
 categories = [
     "Basic",
 ]
-series = ["Basic Algorithm"]
+series = "Basic Algorithm"
 aliases = ["use-recursion-to-factorialize-a-number"]
 +++
 
