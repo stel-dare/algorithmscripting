@@ -2,7 +2,7 @@
 <div class="archive animated fadeInDown">
    
     <ul class="list-with-title">
-      {{ range .Data.Pages.GroupByParam "series" }}     
+      {{ range .Data.Pages.GroupByDate "2006" }}     
       <div class="listing-title">{{ .Key }}</div>
       {{ range .Pages }}
       <ul class="listing">
