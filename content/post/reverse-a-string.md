@@ -55,5 +55,12 @@ function reverseString(string){
 }
 {{< /highlight >}}
 
+## Testing The Function
+{{< highlight js >}}
+reverseString("Greetings from Earth");
+// Output
+htraE morf sgniteerG
+{{< /highlight >}}
+
 Here is list of [JavaScript string methods](https://www.w3schools.com/jsref/jsref_obj_string.asp). 
 Happy coding!

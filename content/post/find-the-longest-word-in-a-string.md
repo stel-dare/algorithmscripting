@@ -63,4 +63,13 @@ function longestWord(sentence){
 }
 {{< /highlight >}} 
 
+## Testing The Function
+{{< highlight js >}}
+longestWord("What if we try a super-long word such as otorhinolaryngology");
+
+// Output
+otorhinolaryngology
+
+{{< /highlight >}}
+
 I hope this helped. The [reduce method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) is explained in more details [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce). Here is also [a list of JavaScript array methods](https://www.w3schools.com/jsref/jsref_obj_array.asp). Happy Coding!

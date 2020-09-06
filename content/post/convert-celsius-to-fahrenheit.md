@@ -40,4 +40,17 @@ function convertToCelsius(fahrenheit){
 }
 {{< /highlight >}}
 
+## Testing the function
+{{< highlight js >}}
+// Convert to Fahrenheit
+convertToFahrenheit(30);
+// Output
+86
+
+// Convert to Celsius
+convertToCelsius(86);
+// Output
+30
+{{< /highlight >}}
+
 Happy coding!

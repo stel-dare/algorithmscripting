@@ -37,5 +37,12 @@ function factorialize(num) {
 }
 {{< /highlight >}}
 
+## Testing the function
+{{< highlight js >}}
+factorialize(10);
+// Output
+3628800
+{{< /highlight >}}
+
 Recursion can very confusing. It took me a while to grasp it myself. In fact I don't think I fully understand it because I find it difficult explaining it.  I hope this helped.
 Happy Coding!

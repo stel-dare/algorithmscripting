@@ -38,4 +38,11 @@ function largestInArrays(multiArr){
 }
 {{< /highlight >}}
 
+## Testing The Function
+{{< highlight js >}}
+largestInArrays([[4, 9, 1, 3], [13, 35, 18, 26], [32, 35, 97, 39], [1000000, 1001, 857, 1]]);
+
+// Output
+[ 9, 35, 97, 1000000 ]
+{{< /highlight >}}
 I hope this helped. Read more about the [forEach method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach). Here is also [a list of JavaScript array methods](https://www.w3schools.com/jsref/jsref_obj_array.asp). Happy Coding!
