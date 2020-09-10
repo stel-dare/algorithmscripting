@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" data-theme=""><head>
+    <title> Algorithm Scripting | Reverse A String </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Solving programming problems.">
+    
+    <link rel="stylesheet" href="/css/style.min.4db37224cadcf46461c7f12b370b1bfdaac50321b8c4a1f4e8d059e616df549f.css" integrity="sha256-TbNyJMrc9GRhx/ErNwsb/arFAyG4xKH06NBZ5hbfVJ8=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="canonical" href="/post/reverse-a-string/">
+    
+    
+    <script type="text/javascript" src="/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Reverse A String"/>
+<meta name="twitter:description" content="Reversing a string with JavaScript."/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="/images/profile.png" alt="profile picture">
+        <h3 title=""><a href="/">Algorithm Scripting</a></h3>
+        <div class="description">
+          <p>Solving programming problems.</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://twitter.com/AkosuaAkimbo" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/stella-dare-2323b9b2/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/stel-dare" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:stelladare2@gmail.com.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Algorithm Scripting 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    <ul class="nav" id="navMenu">
+        
+        
+        
+        <li><a  href="/"  title="">Home</a></li>
+        
+        
+        <li><a  href="/post/"  title="">All Posts</a></li>
+        
+        
+        <li><a  href="/about/"  title="">About</a></li>
+        
+        
+        <li class="theme-switch-item">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+        </li>
+    </ul>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Reverse A String
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">Mon, Aug 31, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>To reverse a string, we first <code>split</code> the string into an array, <code>reverse</code> the array and then <code>join</code> the array back into a string.</p>
+<hr>
+<h2 id="applying-the-logic">Applying The Logic</h2>
+<p>Let&rsquo;s write a function that takes a string and reverses it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">reverseString</span>(<span style="color:#a6e22e">string</span>){
+    <span style="color:#75715e">// Split string into an array
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">stringArray</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">string</span>.<span style="color:#a6e22e">split</span>(<span style="color:#e6db74">&#39;&#39;</span>);
+    <span style="color:#75715e">// Reverse array
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">reverseArray</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">stringArray</span>.<span style="color:#a6e22e">reverse</span>();
+    <span style="color:#75715e">// Join reversed array back to string
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">reverseString</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">reverseArray</span>.<span style="color:#a6e22e">join</span>(<span style="color:#e6db74">&#39;&#39;</span>);
+    <span style="color:#75715e">// Return reversed string
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">reverseString</span>;   
+}
+</code></pre></div>
+<h2 id="what-if-there-were-no-split-join-or-reverse-methods">What if there were no <em>split</em>, <em>join</em> or <em>reverse</em> methods</h2>
+<p>We would reverse the string with a <code>loop</code>. Either <code>for</code>,<code>while</code> or a <code>do while</code> loop.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">reverseString</span>(<span style="color:#a6e22e">string</span>){
+    <span style="color:#75715e">// Define varriable to store reversed string
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">reverseString</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>;
+    <span style="color:#75715e">// We want a for loop that starts at the end of the string and loops to the beginning
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">// Our loop counter i=string.length-1 because this will makes us start at the end of the string
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">// and move towards the beginning. 
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">=</span><span style="color:#a6e22e">string</span>.<span style="color:#a6e22e">length</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">&gt;=</span><span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>) {
+    <span style="color:#75715e">//Anytime we loop we add that character to our reverseString variable
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">//And since we started at the end we would have a reversed string when the loop has ended    
+</span><span style="color:#75715e"></span>        <span style="color:#a6e22e">reverseString</span><span style="color:#f92672">+=</span><span style="color:#a6e22e">string</span>[<span style="color:#a6e22e">i</span>];
+    }
+    <span style="color:#75715e">//Return reversed string
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">reverseString</span>;
+}
+</code></pre></div>
+<h2 id="testing-the-function">Testing The Function</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">reverseString</span>(<span style="color:#e6db74">&#34;Greetings from Earth&#34;</span>);
+<span style="color:#75715e">// Output
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">htraE</span> <span style="color:#a6e22e">morf</span> <span style="color:#a6e22e">sgniteerG</span>
+</code></pre></div>
+<p>Here is list of <a href="https://www.w3schools.com/jsref/jsref_obj_string.asp">JavaScript string methods</a>.
+Happy coding!</p>
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/basic/">Basic</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/basic/">Basic</a><a class="tag" href="/tags/algorithm/">Algorithm</a><a class="tag" href="/tags/javascript/">JavaScript</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-145135224-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>
