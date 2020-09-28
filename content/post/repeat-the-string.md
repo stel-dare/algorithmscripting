@@ -61,4 +61,15 @@ function repeatStringNumTimes(str, num) {
 }
 {{< /highlight >}}
 
+## Testing The Function
+{{< highlight js >}}
+repeatStringNumTimes("*", 3);
+// Output
+"***"
+repeatStringNumTimes("abc", 3);
+// Output
+"abcabcabc"
+{{< /highlight >}}
+
+
 Happy Coding! Read more after the [repeat](https://www.w3schools.com/jsref/jsref_repeat.asp) method.
