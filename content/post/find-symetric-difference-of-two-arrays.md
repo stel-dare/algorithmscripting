@@ -59,4 +59,4 @@ diffArray(
 ["piglet", 4]
 {{< /highlight >}}
 
-Happy Coding! Read more about [concat()](https://www.w3schools.com/jsref/jsref_concat_array.asp), [filter()](https://www.w3schools.com/jsref/jsref_reduce.asp) and other [JavaScript array methods](https://www.w3schools.com/jsref/jsref_filter.asp).
+Happy Coding! Read more about [concat()](https://www.w3schools.com/jsref/jsref_concat_array.asp), [filter()](https://www.w3schools.com/jsref/jsref_filter.asp) and other [JavaScript array methods](https://www.w3schools.com/jsref/jsref_obj_array.asp).
