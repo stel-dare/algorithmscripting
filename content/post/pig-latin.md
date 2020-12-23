@@ -2,7 +2,7 @@
 author = "Stella Dare"
 title = "Pig Latin."
 date = "2020-12-22"
-description = "Translate A Word To Pig LAtin. "
+description = "Translate A Word To Pig Latin. "
 tags = [
     "Intermediate",
     "JavaScript",
