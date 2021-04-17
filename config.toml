@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Algorithm Scripting"
+title = "Akosua Akimbo"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -14,11 +14,11 @@ enableRobotsTXT = true
 googleAnalytics = "UA-145135224-1"
 
 [params]
-title = "Algorithm Scripting"
-author = "Algorithm Scripting"
-description = "Solving programming problems."
-profilePicture = "images/profile.png"
-keywords = ""
+title = "Akosua Akimbo"
+author = "Akosua Akimbo"
+description = "Documenting my software engineering journey."
+profilePicture = "images/logo-daydream.png"
+keywords = "coding programming software-engineering algorithm programming-problem coding-problem"
 favicon = "favicons/"
 customCss = []
 customJs = []
