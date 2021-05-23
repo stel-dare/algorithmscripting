@@ -36,10 +36,6 @@ function findMissingLetter(str) {
 
 }
 
-{{< /highlight >}}
-
-## Testing The Function
-{{< highlight js >}}
 findMissingLetter("abce");
 // Output
 d
@@ -47,7 +43,9 @@ d
 findMissingLetter("abcdefghjklmno");
 // Output
 i
+
 {{< /highlight >}}
+
 
 Happy Coding! Feel free to reach out to me to discuss a different approach.
 
