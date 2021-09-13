@@ -4,8 +4,13 @@ title = "Find missing letters in the alphabet"
 date = "2021-04-24"
 description = "First the first missing letter in a string of alphabets"
 
+tags = [
+    "Intermediate",
+    "JavaScript",    
+]
 
-series = "Intermediate Algorithm"
+series = "Coding Challenges"
+level = "2. Intermediate"
 aliases = [""]
 +++
 

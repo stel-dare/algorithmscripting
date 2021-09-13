@@ -9,10 +9,8 @@ tags = [
     "replace",
     
 ]
-categories = [
-    "Intermediate",
-]
-series = "Intermediate Algorithm"
+level = "2. Intermediate"
+series = "Coding Challenges"
 aliases = [""]
 +++
 

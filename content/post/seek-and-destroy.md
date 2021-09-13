@@ -10,10 +10,8 @@ tags = [
     "args",
     "includes"
 ]
-categories = [
-    "Intermediate",
-]
-series = "Intermediate Algorithm"
+level = "2. Intermediate"
+series = "Coding Challenges"
 aliases = ["remove-elements-in-an-arry-that-are-in-a-second-array"]
 +++
 

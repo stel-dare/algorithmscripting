@@ -11,10 +11,8 @@ tags = [
     "loop",
     "range"
 ]
-categories = [
-    "Intermediate",
-]
-series = "Intermediate Algorithm"
+level = "2. Intermediate"
+series = "Coding Challenges"
 aliases = ["add-numbers-in-a-range"]
 +++
 

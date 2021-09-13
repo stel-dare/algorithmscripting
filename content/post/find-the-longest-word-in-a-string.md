@@ -8,10 +8,8 @@ tags = [
     "Algorithm",
     "JavaScript",
 ]
-categories = [
-    "Basic",
-]
-series = "Basic Algorithm"
+level = "1. Basic"
+series = "Coding Challenges"
 aliases = ["find-the-shortest-word"]
 +++
 

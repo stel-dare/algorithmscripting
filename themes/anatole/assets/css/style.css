@@ -274,7 +274,7 @@ a:active {
 
 .sidebar .logo-title {
   text-align: center;
-  padding-top: 240px;
+  padding-top: 150px;
 }
 
 .sidebar .logo-title .description {
@@ -562,11 +562,15 @@ a:active {
   padding: 0;
 }
 
-.list-with-title .listing-title {
+.list-with-title .listing-title, .listing-sub-title {
   font-size: 24px;
   color: #666666;
   font-weight: 600;
   line-height: 2.2em;
+}
+
+.listing-sub-title {
+  font-size: 15px;
 }
 
 .list-with-title .listing {
@@ -578,7 +582,6 @@ a:active {
 }
 
 .list-with-title .listing .listing-post .post-time {
-  float: right;
   color: #C5C5C5;
 }
 
@@ -935,6 +938,13 @@ a.btn {
   .theme-switch-item {
     float: none;
   }
+
+}
+
+@media screen and (min-width: 768px) {
+  .list-with-title .listing .listing-post .post-time {
+    float: right;
+  } 
 }
 
 /* Medium zoom */

@@ -4,8 +4,13 @@ title = "Return a sorted unique array given multiple arrays"
 date = "2021-04-24"
 description = "Return a sorted unique array given two or more arrays as input"
 
+tags = [
+    "Intermediate",
+    "JavaScript",    
+]
 
-series = "Intermediate Algorithm"
+series = "Coding Challenges"
+level = "2. Intermediate"
 aliases = [""]
 +++
 You are given two or more array and you're required to return a single array of unique values in the original order in which they appeared in the given arrays. For example given `[1, 3, 2], [5, 2, 1, 4], [2, 1]` return `[1, 3, 2, 5, 4]`. We would first flatten the multiple arrays into a single array and then filter out the duplicates by checking if the index of the current element is equal to the first occurrence of that element. If it is not equal then its a duplicate and filtered out.

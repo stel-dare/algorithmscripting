@@ -9,10 +9,8 @@ tags = [
     "JavaScript",
     "Recursion",
 ]
-categories = [
-    "Basic",
-]
-series = "Basic Algorithm"
+level = "1. Basic"
+series = "Coding Challenges"
 aliases = ["use-recursion-to-factorialize-a-number"]
 +++
 

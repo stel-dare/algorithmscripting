@@ -4,8 +4,13 @@ title = "Find and replace html entities in a string"
 date = "2021-05-23"
 description = "Find characters in a string and replace them with their corresponding HTML entities"
 
+tags = [
+    "Intermediate",
+    "JavaScript",    
+]
 
-series = "Intermediate Algorithm"
+series = "Coding Challenges"
+level = "2. Intermediate"
 aliases = [""]
 +++
 
